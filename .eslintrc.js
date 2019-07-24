@@ -23,6 +23,7 @@ module.exports = {
     'import/order': 'off',
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'import/no-unresolved': ['error', { ignore: ['^@.*$'] }],
     'no-unused-vars': [
       'error',
       { args: 'all', argsIgnorePattern: '^_', ignoreRestSiblings: true, varsIgnorePattern: '^_' }
@@ -30,11 +31,11 @@ module.exports = {
     'comma-dangle': [
       'error',
       {
-        arrays: 'always-multiline',
-        objects: 'always-multiline',
-        imports: 'always-multiline',
-        exports: 'always-multiline',
-        functions: 'always-multiline'
+        arrays: 'never',
+        objects: 'never',
+        imports: 'never',
+        exports: 'never',
+        functions: 'never'
       }
     ],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
