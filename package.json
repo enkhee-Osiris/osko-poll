@@ -1,0 +1,26 @@
+{
+  "name": "osko-poll",
+  "version": "0.0.1",
+  "description": "Poll for osko's future",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/enkhee-Osiris/osko-poll.git"
+  },
+  "keywords": [
+    "poll",
+    "react",
+    "osko",
+    "developer"
+  ],
+  "author": "enkhee-Osiris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enkhee-Osiris/osko-poll/issues"
+  },
+  "homepage": "https://github.com/enkhee-Osiris/osko-poll#readme"
+}
