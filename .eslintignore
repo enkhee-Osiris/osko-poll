@@ -1,0 +1,8 @@
+coverage
+dist
+.docz
+node_modules
+**/vendor/*
+
+config/*.js
+webpack.config.js
