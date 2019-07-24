@@ -15,7 +15,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/enkhee-Osiris/osko-poll.git"
   },
-  "keywords": ["poll", "react", "osko", "developer"],
+  "keywords": [
+    "poll",
+    "react",
+    "osko",
+    "developer"
+  ],
   "author": "enkhee-Osiris",
   "license": "MIT",
   "bugs": {
@@ -59,6 +64,7 @@
   },
   "dependencies": {
     "core-js": "^3.1.4",
+    "firebase": "^6.3.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
