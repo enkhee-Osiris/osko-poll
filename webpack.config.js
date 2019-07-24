@@ -49,9 +49,12 @@ const styleLoaders = (...additionalLoaders) => {
 
 const DefinedVariables = {
   'process.env': {
-    API_URL: JSON.stringify(process.env.API_URL),
-    API_BASENAME: JSON.stringify(process.env.API_BASENAME),
-    CLIENT_BASENAME: JSON.stringify(process.env.CLIENT_BASENAME)
+    API_KEY: JSON.stringify(process.env.API_KEY),
+    AUTH_DOMAIN: JSON.stringify(process.env.AUTH_DOMAIN),
+    DATABASE_URL: JSON.stringify(process.env.DATABASE_URL),
+    PROJECT_ID: JSON.stringify(process.env.PROJECT_ID),
+    STORAGE_BUCKET: JSON.stringify(process.env.STORAGE_BUCKET),
+    MESSAGING_SENDER_ID: JSON.stringify(process.env.MESSAGING_SENDER_ID)
   }
 };
 
@@ -162,6 +165,9 @@ module.exports = {
     allowedHosts: ['.poll-docker.local']
   },
   resolve: {
+    alias: {
+      '@': path.join(currentDirectory, 'src')
+    },
     extensions: ['.js', '.jsx', '.scss', '.sass', '.css']
   }
 };
